@@ -8,7 +8,7 @@ sudo vi /etc/ssh/ssh_config
 Insert
 ``` ServerAliveInterval 100 ```
 
-#### Terminal and vim debug info
+### _Terminal and vim debug info_
 Test terminal speed
 ``` Bash
 time seq -f 'blah blah %g' 100000
@@ -26,5 +26,5 @@ Print colorgroups
 :hi
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4NjEyMTUwLC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbMTQ4OTI0ODYyOSwtNjUzNzc2MjY2XX0=
 -->
