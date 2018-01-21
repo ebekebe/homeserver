@@ -18,11 +18,13 @@ Print out colors used in vim
 :so $VIMRUNTIME/syntax/hitest.vim
 ```
 Print used colorscheme
+``` vim
 :color
-
+```
 Print colorgroups
+``` vim
 :hi
-
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTM4NjYyLC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbMzM4NjEyMTUwLC02NTM3NzYyNjZdfQ==
 -->
