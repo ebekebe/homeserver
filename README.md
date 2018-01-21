@@ -5,7 +5,7 @@
 ``` shell
 sudo vi /etc/ssh/ssh_config
 ```
-
+Insert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzNjk1NDUzLC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbMjA3NTk3ODQ2OCwtNjUzNzc2MjY2XX0=
 -->
