@@ -2,9 +2,9 @@
 ## Terminal and vim
 
 ### Keep ssh connection alive (on client side)
-```bash
+``` sh
 sudo vi /etc/ssh/ssh_config
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzg4Mjg3MywtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbMTc0NzAyMzg1OCwtNjUzNzc2MjY2XX0=
 -->
