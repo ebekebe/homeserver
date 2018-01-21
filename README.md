@@ -6,6 +6,7 @@
 sudo vi /etc/ssh/ssh_config
 ```
 Insert
+ServerAliveInterval 100
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTk3ODQ2OCwtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbLTE2MzA0MTMyNzgsLTY1Mzc3NjI2Nl19
 -->
