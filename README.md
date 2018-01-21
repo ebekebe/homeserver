@@ -20,9 +20,9 @@ Print out colors used in vim
 Print used colorscheme
 :color
 
-print colorgroups
+rint colorgroups
 :hi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjQxODE4MiwtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbLTczMDAzNzM2MCwtNjUzNzc2MjY2XX0=
 -->
