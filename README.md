@@ -49,7 +49,13 @@ done
 echo
 ```
 ### Install colortheme for windows WSL
+Download colortool to c:\utils\colortool
+https://github.com/Microsoft/console/
+
+Download and copy c:\utils\colortool\schemes
+https://github.com/mbadolato/iTerm2-Color-Schemes/raw/master/schemes/Builtin%20Dark.itermcolors
+colortool.exe -b Builtin_dark
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE4NDQzNzcsLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbLTU5ODIwMzM5LC02NTM3NzYyNjZdfQ==
 -->
