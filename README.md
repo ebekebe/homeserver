@@ -159,6 +159,25 @@ virt-install \
  --console pty,target_type=serial \
  --noautoconsole
 ```
+Get IP address of VMs
+``` Bash
+virsh net-list
+virsh net-dhcp-leases default # default is the name of the network
+```
+### virsh snapshot-create-as --domain ubuntu-test --name "clean install"
+
+virsh snapshot-list ubuntu-test
+virsh snapshot-info ubuntu-test 'clean install'
+virsh pool-list
+virsh pool-list images
+virsh snapshot-delete ubuntu-test 'clean install'
+qemu-img info /var/lib/libvirt/images/ubuntu-test.qcow2
+virsh dumpxml ubuntu-test
+
+Get back lost space after deletion
+sudo virt-sparsify  /var/lib/libvirt/images/ubuntu-test.qcow2 /var/lib/libvirt/images/ubuntu-test2.qcow2
+sudo mv /var/lib/libvirt/images/ubuntu-test2.qcow2 /var/lib/libvirt/images/ubuntu-test.qcow2
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ5ODY0MjcsLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbLTExODg2NTIyNjAsLTY1Mzc3NjI2Nl19
 -->
