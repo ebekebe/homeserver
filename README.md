@@ -88,11 +88,12 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Plug 'morhetz/gruvbox'
   Plug 'felixjung/vim-base16-lightline'
 call plug#end()
-                                                                                                                                                                                                               let g:lightline = {'colorscheme': 'base16_default',}
-                                                                                                                                                                                                               " let g:gruvbox_contrast_dark='hard'
+
+let g:lightline = {'colorscheme': 'base16_default',}
+" let g:gruvbox_contrast_dark='hard'
 " let ayucolor="dark"
                                                                                                                                                                                                                set background=dark
-                                                                                                                                                                                                               if (has("termguicolors"))
+                                                                                                                                                                                                                                                                                                                 if (has("termguicolors"))
     set termguicolors
 endif
                                                                                                                                                                                                                syntax on
@@ -108,5 +109,5 @@ set laststatus=2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMjUyMzM5LC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbLTE0NjY4MTExMywtNjUzNzc2MjY2XX0=
 -->
