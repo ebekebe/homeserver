@@ -57,6 +57,10 @@ https://github.com/mbadolato/iTerm2-Color-Schemes/raw/master/schemes/Builtin%20D
 Execute in cmd.exe:
 ```colortool.exe -b Builtin_dark```
 
+### Set up neovim and colortheme
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM0MzgyNzEsLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbNTg0NzQwNTk4LC02NTM3NzYyNjZdfQ==
 -->
