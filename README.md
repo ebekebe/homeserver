@@ -139,9 +139,10 @@ Create qcow2 filsystem thin provisioned image to use later
 sudo chown root:libvirt /var/lib/libvirt/images/
 sudo chmod 771 /var/lib/libvirt/images/
 sudo qemu-img create -f qcow2 /var/lib/libvirt/images/ubuntu-test.qcow2 8G
+
 Get a list of available OS types
 osinfo-query os
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODgyMjk5OCwtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbMjcwMDQ4NTUyLC02NTM3NzYyNjZdfQ==
 -->
