@@ -110,6 +110,15 @@ set nowrap
 " This is needed for non-black backgounds.
 " let &t_ut=''
 ```
+#### Make nvim the default editor
+``` Bash
+sudo update-alternatives --install /usr/bin/vi vi /usr/bin/nvim 60
+sudo update-alternatives --config vi
+sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
+sudo update-alternatives --config vim
+sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
+sudo update-alternatives --config editor
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2ODA3NDg3LC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbMTU3MDI1MDA4NSwtNjUzNzc2MjY2XX0=
 -->
