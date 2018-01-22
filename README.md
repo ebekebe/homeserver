@@ -25,7 +25,7 @@ Print colorgroups
 ``` vim
 :hi
 ```
-Print terminal  colortheme colors
+#### Print terminal  colortheme colors
 ``` Bash
 #!/bin/bash
 
@@ -45,6 +45,7 @@ for FGs in '    m' '   1m' '  30m' '1;30m' '  31m' '1;31m' '  32m' '1;32m' '  33
   echo;
 done
 echo
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ4MzEzNjksLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbLTEyNTE2NDMwMTEsLTY1Mzc3NjI2Nl19
 -->
