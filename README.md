@@ -119,6 +119,8 @@ sudo update-alternatives --config vim
 sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
 sudo update-alternatives --config editor
 ```
+## Vitrual machine with KVM
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDI1MDA4NSwtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbLTE0NzIyNTMxNSwtNjUzNzc2MjY2XX0=
 -->
