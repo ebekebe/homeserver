@@ -13,15 +13,15 @@ Test terminal speed
 ``` Bash
 time seq -f 'blah blah %g' 100000
 ```
-Print out colors used in vim
+#### Print out colors used in vim
 ``` vim
 :so $VIMRUNTIME/syntax/hitest.vim
 ```
-Print used colorscheme
+#### Print used colorscheme
 ``` vim
 :color
 ```
-Print colorgroups
+#### Print colorgroups
 ``` vim
 :hi
 ```
@@ -47,5 +47,5 @@ done
 echo
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE2NDMwMTEsLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbMzAxNjUzNTcxLC02NTM3NzYyNjZdfQ==
 -->
