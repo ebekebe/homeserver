@@ -92,16 +92,22 @@ call plug#end()
 let g:lightline = {'colorscheme': 'base16_default',}
 " let g:gruvbox_contrast_dark='hard'
 " let ayucolor="dark"
-                                                                                                                                                                                                               set background=dark
-                                                                                                                                                                                                                                                                                                                 if (has("termguicolors"))
-    set termguicolors
+
+set background=dark
+
+if (has("termguicolors"))
+  set termguicolors
 endif
-                                                                                                                                                                                                               syntax on
+
+syntax on
 colorscheme base16-irblack
-                                                                                                                                                                                                               " This is needed to Lightline to work
+
+" This is needed to Lightline to work
 set laststatus=2
-                                                                                                                                                                                                               set nowrap
-                                                                                                                                                                                                               " This is needed for non-black backgounds.
+
+set nowrap
+
+" This is needed for non-black backgounds.
 " let &t_ut=''
 
 
@@ -109,5 +115,5 @@ set laststatus=2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY4MTExMywtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbLTEzNTAxODQxMTUsLTY1Mzc3NjI2Nl19
 -->
