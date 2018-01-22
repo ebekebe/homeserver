@@ -121,7 +121,15 @@ sudo update-alternatives --config editor
 ```
 ## Vitrual machine with KVM
 ### Install basic KVM, libvirt virtualization packages
+``` Bash
+sudo apt install libvirt-daemon libvirt-bin libosinfo-bin virt-top
+sudo apt install --no-install-recommends virtinst # recommend install xorg and other unneeded packages
+sudo apt install --no-install-recommends  libguestfs-tools  # for mounting guests filesystem into hosts
+groups
+id   # if user atti is not member of libvirt group add it
+sudo adduser atti libvirt
+sudo adduser atti kvm
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxNDExNTgzLC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbMTQxMjg1OTU1MywtNjUzNzc2MjY2XX0=
 -->
