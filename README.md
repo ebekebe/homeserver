@@ -129,7 +129,7 @@ groups
 id   # if user atti is not member of libvirt group add it
 sudo adduser atti libvirt
 sudo adduser atti kvm
-
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjg1OTU1MywtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbLTEyMzY0MTEwODUsLTY1Mzc3NjI2Nl19
 -->
