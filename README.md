@@ -130,6 +130,18 @@ id   # if user atti is not member of libvirt group add it
 sudo adduser atti libvirt
 sudo adduser atti kvm
 ```
+### Install Ubuntu virtual machine
+``` Bash
+mkdir Letöltések
+cd Letöltések
+wget http://de.releases.ubuntu.com/17.10/ubuntu-17.10-server-amd64.iso
+Create qcow2 filsystem thin provisioned image to use later
+sudo chown root:libvirt /var/lib/libvirt/images/
+sudo chmod 771 /var/lib/libvirt/images/
+sudo qemu-img create -f qcow2 /var/lib/libvirt/images/ubuntu-test.qcow2 8G
+Get a list of available OS types
+osinfo-query os
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzY0MTEwODUsLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbMTc3ODgyMjk5OCwtNjUzNzc2MjY2XX0=
 -->
