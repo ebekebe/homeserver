@@ -71,13 +71,42 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 vi .config/nvim/init.vim
 ```
 Insert:
-```
+``` vim
+" Nvim ini file with themes install
 
+call plug#begin('~/.local/share/nvim/plugged')
+  Plug 'sheerun/vim-polyglot'
+  Plug 'chriskempson/base16-vim'
+  Plug 'itchyny/lightline.vim'
+" Plug 'tyrannicaltoucan/vim-quantum'
+" Plug 'ayu-theme/ayu-vim'
+" Plug 'KeitaNakamura/neodark.vim'
+" Plug 'jacoborus/tender.vim'
+" Plug 'joshdick/onedark.vim'
+" Plug 'nanotech/jellybeans.vim'
+" Plug 'tomasr/molokai'
+" Plug 'morhetz/gruvbox'
+  Plug 'felixjung/vim-base16-lightline'
+call plug#end()
+                                                                                                                                                                                                               let g:lightline = {'colorscheme': 'base16_default',}
+                                                                                                                                                                                                               " let g:gruvbox_contrast_dark='hard'
+" let ayucolor="dark"
+                                                                                                                                                                                                               set background=dark
+                                                                                                                                                                                                               if (has("termguicolors"))
+    set termguicolors
+endif
+                                                                                                                                                                                                               syntax on
+colorscheme base16-irblack
+                                                                                                                                                                                                               " This is needed to Lightline to work
+set laststatus=2
+                                                                                                                                                                                                               set nowrap
+                                                                                                                                                                                                               " This is needed for non-black backgounds.
+" let &t_ut=''
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTYzMDk5NzUsLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbNzIxMjUyMzM5LC02NTM3NzYyNjZdfQ==
 -->
