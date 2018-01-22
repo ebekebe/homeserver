@@ -58,9 +58,16 @@ Execute in cmd.exe:
 ```colortool.exe -b Builtin_dark```
 
 ### Set up neovim and colortheme
+Choose colortheme base16 here:
+http://chriskempson.com/projects/base16/
+install “plug” plugin manager
+sudo apt install neovim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NzQwNTk4LC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbMjAxMTE1NDQ3LC02NTM3NzYyNjZdfQ==
 -->
