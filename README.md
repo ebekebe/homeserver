@@ -70,6 +70,7 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjEyNjg4NCwtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbNDYxMTM5OTIyLC02NTM3NzYyNjZdfQ==
 -->
