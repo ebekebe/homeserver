@@ -11,19 +11,23 @@ ServerAliveInterval 100
 ```
 
 ### _Terminal and vim debug info_
-Test terminal speed
+#### Test terminal speed
+In bash
 ``` Bash
 time seq -f 'blah blah %g' 100000
 ```
 #### Print out colors used in vim
+In vim:
 ``` vim
 :so $VIMRUNTIME/syntax/hitest.vim
 ```
 #### Print used colorscheme
+In vim:
 ``` vim
 :color
 ```
 #### Print colorgroups
+
 ``` vim
 :hi
 ```
@@ -49,5 +53,5 @@ done
 echo
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk0MDAwNjEsLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbLTEyOTM5MTgzMjAsLTY1Mzc3NjI2Nl19
 -->
