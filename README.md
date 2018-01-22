@@ -60,14 +60,16 @@ Execute in cmd.exe:
 ### Set up neovim and colortheme
 Choose colortheme base16 here:
 http://chriskempson.com/projects/base16/
-install “plug” plugin manager
+#### Install neovim and  “plug” plugin manager
+``` Bash
 sudo apt install neovim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTE1NDQ3LC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbMTk5NjEyNjg4NCwtNjUzNzc2MjY2XX0=
 -->
