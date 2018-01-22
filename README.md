@@ -27,7 +27,7 @@ In vim:
 :color
 ```
 #### Print colorgroups
-
+In vim:
 ``` vim
 :hi
 ```
@@ -53,5 +53,5 @@ done
 echo
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM5MTgzMjAsLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbMjQyNTc1Mjk1LC02NTM3NzYyNjZdfQ==
 -->
