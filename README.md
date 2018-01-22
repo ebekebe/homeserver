@@ -67,13 +67,17 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 ```
 #### Set up nvim init file
 
-``` Bash vi .config/nvim/init.vim```
+```Bash
+vi .config/nvim/init.vim
+```
 Insert:
+```
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDczMTQ1OSwtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbLTExNTYzMDk5NzUsLTY1Mzc3NjI2Nl19
 -->
