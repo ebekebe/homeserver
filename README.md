@@ -54,8 +54,9 @@ https://github.com/Microsoft/console/
 
 Download and copy c:\utils\colortool\schemes
 https://github.com/mbadolato/iTerm2-Color-Schemes/raw/master/schemes/Builtin%20Dark.itermcolors
-colortool.exe -b Builtin_dark
+Execute in cmd.exe:
+```colortool.exe -b Builtin_dark```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODIwMzM5LC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbLTE2NjM0MzgyNzEsLTY1Mzc3NjI2Nl19
 -->
