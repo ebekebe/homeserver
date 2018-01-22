@@ -6,7 +6,9 @@
 sudo vi /etc/ssh/ssh_config
 ```
 Insert
-``` ServerAliveInterval 100 ```
+```
+ServerAliveInterval 100
+```
 
 ### _Terminal and vim debug info_
 Test terminal speed
@@ -47,5 +49,5 @@ done
 echo
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNjUzNTcxLC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbLTExODk0MDAwNjEsLTY1Mzc3NjI2Nl19
 -->
