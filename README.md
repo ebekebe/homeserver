@@ -65,12 +65,15 @@ http://chriskempson.com/projects/base16/
 sudo apt install neovim
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+#### Set up nvim init file
 
+``` Bash vi .config/nvim/init.vim```
+Insert:
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxMTM5OTIyLC02NTM3NzYyNjZdfQ==
+eyJoaXN0b3J5IjpbMTU1NDczMTQ1OSwtNjUzNzc2MjY2XX0=
 -->
