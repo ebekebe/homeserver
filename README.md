@@ -144,7 +144,21 @@ Get a list of available OS types
 ``` Bash
 osinfo-query os
 ```
-
+Install ubuntu with virsh
+``` Bash
+virt-install \
+ --name=ubuntu-test \
+ --ram=2048 \
+ --vcpus=2 \
+ --disk path=/var/lib/libvirt/images/ubuntu-test.qcow2,format=qcow2,bus=virtio,cache=writeback,discard=unmap \
+ --disk ./ubuntu-17.10-server-amd64.iso,device=cdrom,bus=ide \
+ --os-type=linux \
+ --os-variant=ubuntu17.04 \
+ --network bridge=virbr0 \
+ --graphics spice,listen=0.0.0.0 \
+ --console pty,target_type=serial \
+ --noautoconsole
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzgyNDU5MCwtNjUzNzc2MjY2XX0=
+eyJoaXN0b3J5IjpbLTE4OTQ5ODY0MjcsLTY1Mzc3NjI2Nl19
 -->
