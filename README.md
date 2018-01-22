@@ -109,11 +109,7 @@ set nowrap
 
 " This is needed for non-black backgounds.
 " let &t_ut=''
-
-
-
-
-
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAxODQxMTUsLTY1Mzc3NjI2Nl19
+eyJoaXN0b3J5IjpbNzg2ODA3NDg3LC02NTM3NzYyNjZdfQ==
 -->
